@@ -2,10 +2,10 @@ const users = [
     { name: "Ramin", surname: "CodeFather", email: "TheCodeFather@example.com", phoneNumber: "+994502112121", city: "Baku" },
     { name: "Kenan", surname: "Aliyeff", email: "TheAliyeffs@example.com", phoneNumber: "+994500414141", city: "Lachin" },
     { name: "Poseidon", surname: "SeaGod", email: "TheSeaGod@example.com", phoneNumber: "+994505425757", city: "Sumgait" },
-    { name: "Miri", surname: "PcKiller", email: "ThePcKiller@example.com", phoneNumber: "+994551234567", city: "Hazi Aslanov" },
+    { name: "Miri", surname: "PcKiller", email: "ThePcKiller@example.com", phoneNumber: "+994553220202", city: "Hazi Aslanov" },
     { name: "Seccad", surname: "./", email: "The./@example.com", phoneNumber: "+994555654555", city: "Zabrat" },
     { name: "Madina", surname: "FishCookie", email: "TheFishCookie@example.com", phoneNumber: "+994777776545", city: "Yasamal" },
-    { name: "Nargiz", surname: "NPC", email: "TheNPC@example.com", phoneNumber: "+994514217161", city: "Mkr" },
+    { name: "Nargiz", surname: "Punisher", email: "ThePunisher@example.com", phoneNumber: "+994514217161", city: "Mkr" },
   ];
   const tableBody = document.getElementById("userTableBody");
 
