@@ -32,9 +32,9 @@ button:hover {
 }
 h1 {
   text-align: center;
-  margin: 0 550px;
+  margin: 0;
   padding: 25px 0;
-  color: #929292;
+  color: #f7f1e6;
 }
 h1:hover {
   color: #000000;
