@@ -1,0 +1,72 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid #8f8f8f;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #d8d8d8;
+}
+input {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 6px 10px;
+  margin: 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+h1 {
+  text-align: center;
+  margin: 0 550px;
+  padding: 25px 0;
+  color: #929292;
+}
+h1:hover {
+  color: #000000;
+  box-shadow: 8px 8px 8px #535353;
+  transition: 0.5s;
+  transition-behavior: smooth;
+  transition-timing-function: linear;
+}
+
+tr {
+  color: #929292;
+}
+tr:hover {
+  color: #000000;
+  box-shadow: 8px 8px 8px #714747;
+  transition: 0.5s;
+  transition-behavior: smooth;
+  transition-timing-function: linear;
+}
+
+#CedvelHeader {
+  color: #000000;
+  box-shadow: none;
+}
+#Inputlar {
+  color: #000000;
+}
+
+body {
+  background-color: #f7f1e6;
+}
+
+#userTableBody {
+  background-color: white;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>SALAM FS-34!</h1>
+    <table>
+        <thead>
+            <tr id="Inputlar">
+                <th>
+                    Ad <br>
+                    <input type="text" id="nameFilter" placeholder="Ada uyğun axtar...">
+                </th>
+                <th>
+                    Soyad <br>
+                    <input type="text" id="surnameFilter" placeholder="Soyada uyğun axtar...">
+                </th>
+                <th>
+                    Email <br>
+                    <input type="text" id="emailFilter" placeholder="Email uyğun axtar...">
+                </th>
+                <th>
+                    Telefon Nömrəsi <br>
+                    <input type="text" id="phoneFilter" placeholder="Telefon nömrəsinə uyğun axtar...">
+                </th>
+                <th>
+                    Şəhər <br>
+                    <input type="text" id="cityFilter" placeholder="Şəhərə uyğun axtar...">
+                </th>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    <button id="filterButton">Axtar</button>
+                </th>
+            </tr>
+            <tr id="CedvelHeader">
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Email</th>
+                <th>Telefon Nömrəsi</th>
+                <th>Şəhər</th>
+            </tr>
+        </thead>
+        <tbody id="userTableBody">
+        </tbody>
+    </table>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
